@@ -1,6 +1,4 @@
-﻿using System;
-using System.Security.Cryptography.X509Certificates;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 namespace RomanConverter
 {
     public class RomanConverter
@@ -9,6 +7,7 @@ namespace RomanConverter
         {
             //Variables
             Dictionary<char, int> lookup = new Dictionary<char, int>();
+            //Fill lookup dictionary
             lookup.Add('I', 1);
             lookup.Add('V', 5);
             lookup.Add('X', 10);
